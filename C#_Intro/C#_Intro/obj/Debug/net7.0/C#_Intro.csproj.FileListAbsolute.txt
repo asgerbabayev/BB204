@@ -1,0 +1,15 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\bin\Debug\net7.0\C#_Intro.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\bin\Debug\net7.0\C#_Intro.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\bin\Debug\net7.0\C#_Intro.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\bin\Debug\net7.0\C#_Intro.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\bin\Debug\net7.0\C#_Intro.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\refint\C#_Intro.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\C#_Intro.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#_Intro\C#_Intro\obj\Debug\net7.0\ref\C#_Intro.dll

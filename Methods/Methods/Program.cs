@@ -8,14 +8,21 @@
             //Print("", "");
             //Test("");
             //var result = Compare(4, 3);
+            //Console.WriteLine(result);
 
+            //int result = SumOdd(1, 2, 22);
+            //Console.WriteLine(result);
 
+            //Console.Write("Enter a number 1: ");
+            //int num1 = int.Parse(Console.ReadLine());
+            //Console.Write("Enter a number 2: ");
+            //int num2 = int.Parse(Console.ReadLine());
 
-            //string month = Console.ReadLine();
-
+            //int res = Sum(num1, num2);
+            //Console.WriteLine(res);
 
         }
-        //method signiture -> Method adı, parametr sayısı ve parametr tipləri ferqli olarsa metod overloading olmush olur.
+        //Method signiture -> Method adı, parametr sayısı ve parametr tipləri ferqli olarsa metod overloading olmush olur.
 
         //static void Print(string name)
         //{
@@ -30,20 +37,11 @@
         //    Console.WriteLine("Fullname: {0} Age: {1}", fulname, age);
         //}
 
-        //Console.Write("Enter a number 1: ");
-        //int num1 = int.Parse(Console.ReadLine());
-        //Console.Write("Enter a number 2: ");
-        //int num2 = int.Parse(Console.ReadLine());
-
-        //int res = Sum(num1, num2);
-        //Console.WriteLine(res);
-
-        //static int sum(int num1, int num2)
+        //static int Sum(int num1, int num2)
         //{
         //    return num1 + num2;
         //}
 
-        //int result = SumOdd(1, 2, 22);
 
         //static int SumOdd(params int[] arr)
         //{

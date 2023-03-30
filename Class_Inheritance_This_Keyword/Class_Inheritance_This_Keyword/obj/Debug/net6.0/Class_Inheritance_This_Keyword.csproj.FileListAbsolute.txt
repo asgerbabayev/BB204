@@ -1,0 +1,15 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\bin\Debug\net6.0\Class_Inheritance_This_Keyword.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\bin\Debug\net6.0\Class_Inheritance_This_Keyword.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\bin\Debug\net6.0\Class_Inheritance_This_Keyword.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\bin\Debug\net6.0\Class_Inheritance_This_Keyword.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\bin\Debug\net6.0\Class_Inheritance_This_Keyword.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\refint\Class_Inheritance_This_Keyword.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\Class_Inheritance_This_Keyword.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Class_Inheritance_This_Keyword\Class_Inheritance_This_Keyword\obj\Debug\net6.0\ref\Class_Inheritance_This_Keyword.dll

@@ -1,4 +1,4 @@
-﻿using Class_Practise.Models;
+﻿using M = Class_Practise.Models;
 
 namespace Class_Practise
 {
@@ -6,7 +6,7 @@ namespace Class_Practise
     {
         static void Main(string[] args)
         {
-            Car car = new Car("", "", 25, 65, 2022);
+            M.Car car = new M.Car("", "", 25, 65, 2022);
 
 
 

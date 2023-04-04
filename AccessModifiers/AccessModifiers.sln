@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{F13D9A82-BA0F-4EB0-BA3E-C6DE71189CDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{F13D9A82-BA0F-4EB0-BA3E-C6DE71189CDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internal_AccessModifier", "Internal_AccessModifier\Internal_AccessModifier.csproj", "{86986A8C-9CFD-4D62-B785-B0EC5AA5C826}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "ClassLibrary1\Models.csproj", "{7C01354C-9F5C-4722-8FC1-AF16BC259EAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{F13D9A82-BA0F-4EB0-BA3E-C6DE71189CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13D9A82-BA0F-4EB0-BA3E-C6DE71189CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13D9A82-BA0F-4EB0-BA3E-C6DE71189CDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{86986A8C-9CFD-4D62-B785-B0EC5AA5C826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86986A8C-9CFD-4D62-B785-B0EC5AA5C826}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86986A8C-9CFD-4D62-B785-B0EC5AA5C826}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86986A8C-9CFD-4D62-B785-B0EC5AA5C826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C01354C-9F5C-4722-8FC1-AF16BC259EAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C01354C-9F5C-4722-8FC1-AF16BC259EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C01354C-9F5C-4722-8FC1-AF16BC259EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C01354C-9F5C-4722-8FC1-AF16BC259EAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-﻿namespace AccessModifiers
+﻿using ClassLibrary1;
+
+namespace AccessModifiers
 {
     internal class Program
     {
@@ -62,10 +64,17 @@
             //var isValid = result.isValid ? result.message : result.message;
             //Console.WriteLine(isValid);
             #endregion
+
+            Notification notification = new Notification();
+
         }
     }
-    //class Car
-    //{
-    //    public int Test { get; set; }
-    //}
+    class Car : Notification
+    {
+        public Car()
+        {
+            Title = "";
+        }
+        public int Test { get; set; }
+    }
 }

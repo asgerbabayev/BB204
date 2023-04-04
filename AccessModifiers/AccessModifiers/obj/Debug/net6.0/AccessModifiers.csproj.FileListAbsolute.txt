@@ -13,3 +13,8 @@ C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifie
 C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\obj\Debug\net6.0\AccessModifiers.pdb
 C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\obj\Debug\net6.0\AccessModifiers.genruntimeconfig.cache
 C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\obj\Debug\net6.0\ref\AccessModifiers.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\bin\Debug\net6.0\Core.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\bin\Debug\net6.0\Models.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\bin\Debug\net6.0\Models.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\bin\Debug\net6.0\Core.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\AccessModifiers\AccessModifiers\obj\Debug\net6.0\AccessModifiers.csproj.CopyComplete

@@ -1,5 +1,4 @@
-﻿
-using Class_Inheritance_This_Keyword.Models;
+﻿using Class_Inheritance_This_Keyword.Models;
 
 namespace Class_Inheritance_This_Keyword
 {
@@ -34,14 +33,14 @@ namespace Class_Inheritance_This_Keyword
 
 
             // instance
-            Student student = new Student();
+            //Student student = new Student();
 
 
-            student.name = "Arzu";
+            //student.name = "Arzu";
             //student.surname = "Qocayeva";
             //student.age = 20;
 
-            student.Fullname();
+            //student.Fullname();
 
             //Console.WriteLine(student.name + " " + student.age);
             //Console.WriteLine("{0} {1}", student.name, student.age);
@@ -57,14 +56,17 @@ namespace Class_Inheritance_This_Keyword
             //Console.WriteLine("{0} {1}", student.name, student.age);
             //Console.WriteLine($"{student2.name} {student2.age}");
 
+            //object initializer
+            Student student = new Student()
+            {
+                Name = "Test",
+                Surname = "Test"
+            };
+
+            student.Add(student);
 
 
-
-        }
-
-        static void Set(string name)
-        {
-
+            student.Print();
         }
     }
 

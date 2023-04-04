@@ -1,30 +1,33 @@
 ﻿namespace Class_Inheritance_This_Keyword.Models;
 
-internal class Student : Person
+internal class Student
 {
+    public string Name { get; set; }
+    public string Surname { get; set; }
 
+    private Student[] _arr = new Student[0];
 
-    public Student(string name) : base(name)
+    public void Add(Student student)
     {
-
+        Array.Resize(ref _arr, _arr.Length + 1);
+        _arr[_arr.Length - 1] = student;
     }
 
-    public Student(string name, double point) : base(name)
+    public Student[] GetAllStudents()
     {
-        this.point = point;
+        return _arr;
     }
 
+    public void Print()
+    {
+        foreach (Student student in GetAllStudents())
+        {
+            Console.WriteLine(student);
+        }
+    }
 
-    //public Student(string name, int age) : this(name)
-    //{
-    //    this.age = age;
-    //}
-
-    //public Student(string name, string surname, int age) : this(name, age)
-    //{
-    //    this.surname = surname;
-    //}
-    public double point;
-
-
+    public override string ToString()
+    {
+        return Name + Surname;
+    }
 }

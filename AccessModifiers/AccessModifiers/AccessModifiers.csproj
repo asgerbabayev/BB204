@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core">
+      <HintPath>..\..\..\..\AOP\AspectOrientedProject\Entities\bin\Debug\net7.0\Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

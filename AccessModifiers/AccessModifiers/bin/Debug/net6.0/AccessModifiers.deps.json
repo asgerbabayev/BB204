@@ -7,8 +7,25 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "AccessModifiers/1.0.0": {
+        "dependencies": {
+          "Models": "1.0.0",
+          "Core": "1.0.0.0"
+        },
         "runtime": {
           "AccessModifiers.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "runtime": {
+          "Models.dll": {}
+        }
+      },
+      "Core/1.0.0.0": {
+        "runtime": {
+          "Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -16,6 +33,16 @@
   "libraries": {
     "AccessModifiers/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

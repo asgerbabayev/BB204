@@ -56,7 +56,6 @@ public class Car
     //    Console.WriteLine("Rus as a car");
     //}
 
-
     #region Tuple
     //public (string message, bool isValid) CheckUsername(string username)
     //{
@@ -65,7 +64,7 @@ public class Car
     //        return (username, true);
     //    }
     //    return ("Wrong username", false);
-    //} 
+    //}
     #endregion
 
     #region Custom encapsulation

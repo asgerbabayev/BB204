@@ -1,0 +1,15 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\bin\Debug\net6.0\Abstract_Interface.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\bin\Debug\net6.0\Abstract_Interface.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\bin\Debug\net6.0\Abstract_Interface.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\bin\Debug\net6.0\Abstract_Interface.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\bin\Debug\net6.0\Abstract_Interface.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\refint\Abstract_Interface.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\Abstract_Interface.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Abstract_Interface\Abstract_Interface\obj\Debug\net6.0\ref\Abstract_Interface.dll

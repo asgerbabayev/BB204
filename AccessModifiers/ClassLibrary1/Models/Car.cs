@@ -89,4 +89,15 @@ public class Car
     #endregion
 
 
+
+
+    public string ShowInfo()
+    {
+        return Brand + " " + Model;
+    }
+    public override string ToString()
+    {
+        return ShowInfo();
+    }
+
 }

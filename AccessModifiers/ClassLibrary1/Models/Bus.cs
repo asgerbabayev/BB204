@@ -13,4 +13,9 @@ class Bus
         //Color = "white";
         //Console.WriteLine(Color);
     }
+
+    public override string ToString()
+    {
+        return base.ToString();
+    }
 }

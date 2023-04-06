@@ -1,0 +1,15 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\bin\Debug\net6.0\Static, Struct, Enum.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\bin\Debug\net6.0\Static, Struct, Enum.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\bin\Debug\net6.0\Static, Struct, Enum.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\bin\Debug\net6.0\Static, Struct, Enum.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\bin\Debug\net6.0\Static, Struct, Enum.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\refint\Static, Struct, Enum.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\Static, Struct, Enum.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Static, Struct, Enum\Static, Struct, Enum\obj\Debug\net6.0\ref\Static, Struct, Enum.dll

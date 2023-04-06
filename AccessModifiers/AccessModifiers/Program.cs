@@ -1,4 +1,4 @@
-﻿using ClassLibrary1;
+﻿using AccessModifiers.Models;
 
 namespace AccessModifiers
 {
@@ -65,16 +65,24 @@ namespace AccessModifiers
             //Console.WriteLine(isValid);
             #endregion
 
-            Notification notification = new Notification();
+            //Notification notification = new Notification();
+
+
+            Car car = new Car();
+            car.Brand = "sada";
+            car.Model = "sada";
+
+            Console.WriteLine(car.Brand);
+
 
         }
     }
-    class Car : Notification
-    {
-        public Car()
-        {
-            Title = "";
-        }
-        public int Test { get; set; }
-    }
+    //class Car : Notification
+    //{
+    //    public Car()
+    //    {
+    //        Title = "";
+    //    }
+    //    public int Test { get; set; }
+    //}
 }

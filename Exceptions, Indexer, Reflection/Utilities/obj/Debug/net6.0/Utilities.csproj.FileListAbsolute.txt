@@ -1,0 +1,12 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\bin\Debug\net6.0\Utilities.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\bin\Debug\net6.0\Utilities.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\bin\Debug\net6.0\Utilities.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\Utilities.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\Utilities.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\refint\Utilities.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\Utilities.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Utilities\obj\Debug\net6.0\ref\Utilities.dll

@@ -1,0 +1,18 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\bin\Debug\net6.0\Exceptions, Indexer, Reflection.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\bin\Debug\net6.0\Exceptions, Indexer, Reflection.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\bin\Debug\net6.0\Exceptions, Indexer, Reflection.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\bin\Debug\net6.0\Exceptions, Indexer, Reflection.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\bin\Debug\net6.0\Exceptions, Indexer, Reflection.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\refint\Exceptions, Indexer, Reflection.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\ref\Exceptions, Indexer, Reflection.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\bin\Debug\net6.0\Utilities.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\bin\Debug\net6.0\Utilities.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Exceptions, Indexer, Reflection\Exceptions, Indexer, Reflection\obj\Debug\net6.0\Exceptions, Indexer, Reflection.csproj.CopyComplete

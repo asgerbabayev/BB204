@@ -22,23 +22,11 @@
             //    item.Live();
             //}
 
-            Person person = new Person();
         }
     }
 
     #region Abstract
-    //abstract class Person
-    //{
-    //    public abstract void Eat();
-    //}
 
-    //class Student : Person
-    //{
-    //    public override void Eat()
-    //    {
-    //        Console.WriteLine("Eat as student");
-    //    }
-    //}
 
 
     //abstract class Animal

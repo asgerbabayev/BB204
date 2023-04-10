@@ -1,0 +1,15 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\bin\Debug\net6.0\Casting, Operator overloading.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\bin\Debug\net6.0\Casting, Operator overloading.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\bin\Debug\net6.0\Casting, Operator overloading.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\bin\Debug\net6.0\Casting, Operator overloading.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\bin\Debug\net6.0\Casting, Operator overloading.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\refint\Casting, Operator overloading.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\Casting, Operator overloading.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Casting, Operator overloading\Casting, Operator overloading\obj\Debug\net6.0\ref\Casting, Operator overloading.dll

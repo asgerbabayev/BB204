@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Generics,, Collections\\Generics,, Collections\\Generics,, Collections.csproj": {}
+    "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Delegate, Lambda Expression\\Delegate, Lambda Expression\\Delegate, Lambda Expression.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Generics,, Collections\\Generics,, Collections\\Generics,, Collections.csproj": {
+    "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Delegate, Lambda Expression\\Delegate, Lambda Expression\\Delegate, Lambda Expression.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Generics,, Collections\\Generics,, Collections\\Generics,, Collections.csproj",
-        "projectName": "Generics,, Collections",
-        "projectPath": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Generics,, Collections\\Generics,, Collections\\Generics,, Collections.csproj",
+        "projectUniqueName": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Delegate, Lambda Expression\\Delegate, Lambda Expression\\Delegate, Lambda Expression.csproj",
+        "projectName": "Delegate, Lambda Expression",
+        "projectPath": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Delegate, Lambda Expression\\Delegate, Lambda Expression\\Delegate, Lambda Expression.csproj",
         "packagesPath": "C:\\Users\\asger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Generics,, Collections\\Generics,, Collections\\obj\\",
+        "outputPath": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\Delegate, Lambda Expression\\Delegate, Lambda Expression\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asger\\AppData\\Roaming\\NuGet\\NuGet.Config",

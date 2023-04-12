@@ -127,24 +127,18 @@ namespace Generics___Collections
 
 
     #region Generic Types
-    class MyList<T1, T2>
+    class MyList<T>
     //generic constraints
     //where T : struct
     //where T : class
     //where T1 : new()
     {
-        private T1[] _arr;
+        private T[] _arr;
         public MyList()
         {
-            _arr = new T1[10];
+            _arr = new T[10];
         }
-
-        public void Print(T2 t2)
-        {
-            Console.WriteLine(t2);
-        }
-
-        public void Add(T1 value)
+        public void Add(T value)
         {
             Array.Resize(ref _arr, _arr.Length + 1);
             _arr[_arr.Length - 1] = value;

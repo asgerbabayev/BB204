@@ -1,0 +1,15 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\bin\Debug\net6.0\Delegate, Lambda Expression.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\bin\Debug\net6.0\Delegate, Lambda Expression.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\bin\Debug\net6.0\Delegate, Lambda Expression.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\bin\Debug\net6.0\Delegate, Lambda Expression.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\bin\Debug\net6.0\Delegate, Lambda Expression.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\refint\Delegate, Lambda Expression.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\Delegate, Lambda Expression.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\Delegate, Lambda Expression\Delegate, Lambda Expression\obj\Debug\net6.0\ref\Delegate, Lambda Expression.dll

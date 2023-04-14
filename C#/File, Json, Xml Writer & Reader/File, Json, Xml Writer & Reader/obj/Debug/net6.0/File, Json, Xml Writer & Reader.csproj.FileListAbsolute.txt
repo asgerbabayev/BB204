@@ -1,0 +1,17 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\bin\Debug\net6.0\File, Json, Xml Writer & Reader.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\bin\Debug\net6.0\File, Json, Xml Writer & Reader.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\bin\Debug\net6.0\File, Json, Xml Writer & Reader.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\bin\Debug\net6.0\File, Json, Xml Writer & Reader.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\bin\Debug\net6.0\File, Json, Xml Writer & Reader.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\refint\File, Json, Xml Writer & Reader.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\ref\File, Json, Xml Writer & Reader.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\obj\Debug\net6.0\File, Json, Xml Writer & Reader.csproj.CopyComplete

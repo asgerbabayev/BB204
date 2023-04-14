@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "72B1X/bW/Uzksj+hE0oGOjedDMK+WduNVRZ9Vu+44aIzzWvFGj072Qngz6CD34AgFLwp6prAldg/ZzAkD36s4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\C#\\File, Json, Xml Writer & Reader\\File, Json, Xml Writer & Reader\\File, Json, Xml Writer & Reader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asger\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

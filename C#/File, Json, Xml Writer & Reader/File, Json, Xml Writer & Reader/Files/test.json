@@ -1,0 +1,1 @@
+{"Id":1,"OrderItems":[{"Id":1,"Product":{"Id":1,"Name":"IPhone 15","Price":5000.0},"TotalPrice":10000.0,"Count":2},{"Id":2,"Product":{"Id":2,"Name":"Xiaomi","Price":800.0},"TotalPrice":2400.0,"Count":3}]}

@@ -1,13 +1,13 @@
 ﻿using File__Json__Xml_Writer___Reader.Models;
-using Newtonsoft.Json;
+using System.Xml.Serialization;
 
 namespace File__Json__Xml_Writer___Reader
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            string path = @"C:\Users\asger\OneDrive\Masaüstü\BB204\test.txt";
+            string path = @"C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\Files\test.xml";
             #region Directory, File
             //Directory.CreateDirectory(@"C:\Users\asger\OneDrive\Masaüstü\BB204");
             //Directory.CreateDirectory(@"C:\Users\asger\OneDrive\Masaüstü\BB204\Inside1");
@@ -52,18 +52,18 @@ namespace File__Json__Xml_Writer___Reader
             #endregion
 
             #region Json serializer & deserializer
-            //Product p1 = new Product() { Id = 1, Name = "IPhone 15", Price = 5000 };
-            //Product p2 = new Product() { Id = 2, Name = "Xiaomi", Price = 800 };
+            Product p1 = new Product() { Id = 1, Name = "IPhone 15", Price = 5000 };
+            Product p2 = new Product() { Id = 2, Name = "Xiaomi", Price = 800 };
 
-            //OrderItem item1 = new OrderItem() { Id = 1, Product = p1, Count = 2 };
-            //item1.TotalPrice = p1.Price * item1.Count;
+            OrderItem item1 = new OrderItem() { Id = 1, Product = p1, Count = 2 };
+            item1.TotalPrice = p1.Price * item1.Count;
 
-            //OrderItem item2 = new OrderItem() { Id = 2, Product = p2, Count = 3 };
-            //item2.TotalPrice = p2.Price * item2.Count;
+            OrderItem item2 = new OrderItem() { Id = 2, Product = p2, Count = 3 };
+            item2.TotalPrice = p2.Price * item2.Count;
 
-            //List<OrderItem> items = new List<OrderItem>() { item1, item2 };
+            List<OrderItem> items = new List<OrderItem>() { item1, item2 };
 
-            //Order order = new Order() { Id = 1, OrderItems = items };
+            Order order = new Order() { Id = 1, OrderItems = items };
 
             //string result = JsonConvert.SerializeObject(order);
 
@@ -74,23 +74,22 @@ namespace File__Json__Xml_Writer___Reader
             //}
 
 
-            string json = string.Empty;
-            using (var reader = new StreamReader(@"C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\Files\test.json"))
-            {
-                json = reader.ReadToEnd();
-            }
+            //string json = string.Empty;
+            //using (var reader = new StreamReader(@"C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\File, Json, Xml Writer & Reader\File, Json, Xml Writer & Reader\Files\test.json"))
+            //{
+            //    json = reader.ReadToEnd();
+            //}
 
-            Order? order = JsonConvert.DeserializeObject<Order>(json);
+            //Order? order = JsonConvert.DeserializeObject<Order>(json);
             //foreach (var item in order.OrderItems)
             //{
             //    Console.WriteLine(item.Product.Name + item.Product.Price);
             //}
 
-            foreach (var item in order.OrderItems)
-            {
-
-                Console.WriteLine($"{item.Id} {order.Id}\n{item.Count}\n{item.TotalPrice}");
-            }
+            //foreach (var item in order.OrderItems)
+            //{
+            //    Console.WriteLine($"{item.Id} {order.Id}\n{item.Count}\n{item.TotalPrice}");
+            //}
             #endregion
 
             #region Xml serializer & deserializer
@@ -110,6 +109,13 @@ namespace File__Json__Xml_Writer___Reader
             //        }
             //    }
             //}
+
+            using (StreamWriter sw = new StreamWriter(path))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(Order));
+                xmlSerializer.Serialize(sw, order);
+
+            }
 
             #endregion
         }

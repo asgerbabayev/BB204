@@ -1,0 +1,15 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\bin\Debug\net6.0\RNET102ClassTask.exe
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\bin\Debug\net6.0\RNET102ClassTask.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\bin\Debug\net6.0\RNET102ClassTask.runtimeconfig.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\bin\Debug\net6.0\RNET102ClassTask.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\bin\Debug\net6.0\RNET102ClassTask.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\refint\RNET102ClassTask.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\RNET102ClassTask.genruntimeconfig.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\C#\RNET102ClassTask\RNET102ClassTask\obj\Debug\net6.0\ref\RNET102ClassTask.dll

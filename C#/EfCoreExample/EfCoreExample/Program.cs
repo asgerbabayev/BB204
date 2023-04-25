@@ -15,8 +15,8 @@ namespace EfCoreExample
 
             //Console.WriteLine(DeleteStudent(4));
 
-            var student = GetStudent("Aysel");
-            Console.WriteLine(student.Name + " " + student.Surname);
+            //var student = GetStudent("Aysel");
+            //Console.WriteLine(student.Name + " " + student.Surname);
         }
 
         static void InsertStudent()
@@ -27,7 +27,6 @@ namespace EfCoreExample
                 context.SaveChanges();
             }
         }
-
         static List<Student> GetStudents()
         {
             using (AppDbContext context = new AppDbContext())
@@ -46,7 +45,6 @@ namespace EfCoreExample
                 return result;
             }
         }
-
         static Student? GetStudent(string name)
         {
             using (AppDbContext context = new AppDbContext())

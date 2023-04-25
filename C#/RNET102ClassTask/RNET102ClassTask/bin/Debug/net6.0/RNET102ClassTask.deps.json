@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RNET102ClassTask/1.0.0": {
+        "runtime": {
+          "RNET102ClassTask.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RNET102ClassTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

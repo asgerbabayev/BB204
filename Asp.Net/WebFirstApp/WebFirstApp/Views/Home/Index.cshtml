@@ -1,0 +1,61 @@
+﻿
+@model Student
+@{
+    ViewData["Title"] = "Index";
+}
+@*
+<h1>@ViewBag.Aslan</h1>
+<h1>@ViewData["Elvin"]</h1>
+<h1>@TempData["Nergiz"]</h1>
+*@
+
+<div class="container mt-5">
+
+<table class="table table-hover table-stripped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (Student student in Model.Students)
+{
+        <tr>
+            <th>@student.Id</th>
+            <td>@student.Name</td>
+            <td>@student.Surname</td>
+            <td>@student.Age</td>
+        </tr>
+}
+    </tbody>
+</table>
+<br />
+<br />
+<br />
+<br />
+
+    <table class="table table-hover table-stripped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Group group in Model.Groups)
+            {
+                <tr>
+                    <th>@group.Id</th>
+                    <td>@group.Name</td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+</div>
+
+

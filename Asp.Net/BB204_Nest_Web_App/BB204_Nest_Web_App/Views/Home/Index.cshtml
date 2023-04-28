@@ -38,26 +38,14 @@
                 <div class="title">
                     <h3>Featured Categories</h3>
                     <ul class="list-inline nav nav-tabs links">
+                    @foreach (var item in Model.RandomCategories)
+                    {
                         <li class="list-inline-item nav-item">
                             <a class="nav-link" href="shop-grid-right.html">
-                                Cake &
-                                Milk
+                                @item.Name
                             </a>
                         </li>
-                        <li class="list-inline-item nav-item">
-                            <a class="nav-link" href="shop-grid-right.html">
-                                Coffes
-                                & Teas
-                            </a>
-                        </li>
-                        <li class="list-inline-item nav-item">
-                            <a class="nav-link active"
-                               href="shop-grid-right.html">Pet Foods</a>
-                        </li>
-                        <li class="list-inline-item nav-item">
-                            <a class="nav-link"
-                               href="shop-grid-right.html">Vegetables</a>
-                        </li>
+                    }
                     </ul>
                 </div>
                 <div class="slider-arrow slider-arrow-2 flex-right carausel-10-columns-arrow"
@@ -67,81 +55,12 @@
                 <div class="carausel-10-columns" id="carausel-10-columns">
                     <div class="card-2 bg-9 wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-13.png" alt="" /></a>
+                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/" alt="" /></a>
                         </figure>
-                        <h6><a href="shop-grid-right.html">Cake & Milk</a></h6>
+                        <h6><a href="shop-grid-right.html"></a></h6>
                         <span>26 items</span>
                     </div>
-                    <div class="card-2 bg-10 wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-12.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Oganic Kiwi</a></h6>
-                        <span>28 items</span>
-                    </div>
-                    <div class="card-2 bg-11 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-11.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Peach</a></h6>
-                        <span>14 items</span>
-                    </div>
-                    <div class="card-2 bg-12 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-9.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Red Apple</a></h6>
-                        <span>54 items</span>
-                    </div>
-                    <div class="card-2 bg-13 wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-3.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Snack</a></h6>
-                        <span>56 items</span>
-                    </div>
-                    <div class="card-2 bg-14 wow animate__animated animate__fadeInUp" data-wow-delay=".6s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-1.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Vegetables</a></h6>
-                        <span>72 items</span>
-                    </div>
-                    <div class="card-2 bg-15 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-2.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Strawberry</a></h6>
-                        <span>36 items</span>
-                    </div>
-                    <div class="card-2 bg-12 wow animate__animated animate__fadeInUp" data-wow-delay=".8s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-4.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Black plum</a></h6>
-                        <span>123 items</span>
-                    </div>
-                    <div class="card-2 bg-10 wow animate__animated animate__fadeInUp" data-wow-delay=".9s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-5.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Custard apple</a></h6>
-                        <span>34 items</span>
-                    </div>
-                    <div class="card-2 bg-12 wow animate__animated animate__fadeInUp" data-wow-delay="1s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-14.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Coffe & Tea</a></h6>
-                        <span>89 items</span>
-                    </div>
-                    <div class="card-2 bg-11 wow animate__animated animate__fadeInUp" data-wow-delay="0s">
-                        <figure class="img-hover-scale overflow-hidden">
-                            <a href="shop-grid-right.html"><img src="assets/imgs/shop/cat-15.png" alt="" /></a>
-                        </figure>
-                        <h6><a href="shop-grid-right.html">Headphone</a></h6>
-                        <span>87 items</span>
-                    </div>
+                        
                 </div>
             </div>
         </div>
@@ -205,7 +124,7 @@
                             All
                         </button>
                     </li>
-                    @foreach (var item in Model.Categories)
+                    @foreach (var item in Model.PopularCategories)
                     {
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="nav-tab-two" data-bs-toggle="tab" data-bs-target="#tab-two"
@@ -230,9 +149,9 @@
                                 <div class="product-img-action-wrap">
                                     <div class="product-img product-img-zoom">
                                         <a href="shop-product-right.html">
-                                            <img class="default-img" src="assets/imgs/shop/product-1-1.jpg"
+                                            <img class="default-img" src="~/assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
                                                  alt="" />
-                                            <img class="hover-img" src="assets/imgs/shop/product-1-2.jpg" alt="" />
+                                            <img class="hover-img" src="~/assets/imgs/shop/@product.ProductImages.Where(x=>x.IsBack == true).FirstOrDefault().Image" alt="" />
                                         </a>
                                     </div>
                                     <div class="product-action-1">
@@ -261,7 +180,7 @@
                                         <div class="product-rate d-inline-block">
                                             <div class="product-rating" style="width: @(product.Rating*20)%"></div>
                                         </div>
-                                        <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                        <span class="font-small ml-5 text-muted"> (@product.Rating)</span>
                                     </div>
                                     <div>
                                         <span class="font-small text-muted">
@@ -270,7 +189,7 @@
                                     </div>
                                     <div class="product-card-bottom">
                                         <div class="product-price">
-                                            <span>$@product.Price</span>
+                                            <span>$@product.SellPrice</span>
                                             <span class="old-price">$32.8</span>
                                         </div>
                                         <div class="add-cart">
@@ -5008,10 +4927,12 @@
                      data-wow-delay=".2s">
                     <h4 class="section-title style-1 mb-30 animated animated">Recently added</h4>
                     <div class="product-list-small animated animated">
+                        @foreach(Product product in Model.RecentProducts){
+
                         <article class="row align-items-center hover-up">
                             <figure class="col-md-4 mb-0">
                                 <a href="shop-product-right.html">
-                                    <img src="assets/imgs/shop/thumbnail-7.jpg"
+                                    <img src="assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
                                          alt="" />
                                 </a>
                             </figure>
@@ -5024,9 +4945,9 @@
                                 </h6>
                                 <div class="product-rate-cover">
                                     <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 90%"></div>
+                                        <div class="product-rating" style="width: @(product.Rating * 20)%"></div>
                                     </div>
-                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    <span class="font-small ml-5 text-muted"> (@(product.Rating))</span>
                                 </div>
                                 <div class="product-price">
                                     <span>$32.85</span>
@@ -5034,62 +4955,19 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="row align-items-center hover-up">
-                            <figure class="col-md-4 mb-0">
-                                <a href="shop-product-right.html">
-                                    <img src="assets/imgs/shop/thumbnail-8.jpg"
-                                         alt="" />
-                                </a>
-                            </figure>
-                            <div class="col-md-8 mb-0">
-                                <h6>
-                                    <a href="shop-product-right.html">Organic Frozen Triple Berry Blend</a>
-                                </h6>
-                                <div class="product-rate-cover">
-                                    <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 90%"></div>
-                                    </div>
-                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$32.85</span>
-                                    <span class="old-price">$33.8</span>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="row align-items-center hover-up">
-                            <figure class="col-md-4 mb-0">
-                                <a href="shop-product-right.html">
-                                    <img src="assets/imgs/shop/thumbnail-9.jpg"
-                                         alt="" />
-                                </a>
-                            </figure>
-                            <div class="col-md-8 mb-0">
-                                <h6>
-                                    <a href="shop-product-right.html">Oroweat Country Buttermilk Bread</a>
-                                </h6>
-                                <div class="product-rate-cover">
-                                    <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 90%"></div>
-                                    </div>
-                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$32.85</span>
-                                    <span class="old-price">$33.8</span>
-                                </div>
-                            </div>
-                        </article>
+                        }
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 mb-sm-5 mb-md-0 d-none d-xl-block wow animate__animated animate__fadeInUp"
                      data-wow-delay=".3s">
                     <h4 class="section-title style-1 mb-30 animated animated">Top Rated</h4>
                     <div class="product-list-small animated animated">
-                        <article class="row align-items-center hover-up">
+                        @foreach(Product product in Model.TopRatedProducts)
+                        {
+                            <article class="row align-items-center hover-up">
                             <figure class="col-md-4 mb-0">
                                 <a href="shop-product-right.html">
-                                    <img src="assets/imgs/shop/thumbnail-10.jpg"
+                                        <img src="assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
                                          alt="" />
                                 </a>
                             </figure>
@@ -5102,9 +4980,9 @@
                                 </h6>
                                 <div class="product-rate-cover">
                                     <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 90%"></div>
+                                        <div class="product-rating" style="width: @(product.Rating * 20)%"></div>
                                     </div>
-                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
+                                    <span class="font-small ml-5 text-muted"> (@product.Rating)</span>
                                 </div>
                                 <div class="product-price">
                                     <span>$32.85</span>
@@ -5112,58 +4990,7 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="row align-items-center hover-up">
-                            <figure class="col-md-4 mb-0">
-                                <a href="shop-product-right.html">
-                                    <img src="assets/imgs/shop/thumbnail-11.jpg"
-                                         alt="" />
-                                </a>
-                            </figure>
-                            <div class="col-md-8 mb-0">
-                                <h6>
-                                    <a href="shop-product-right.html">
-                                        Angie’s Boomchickapop Sweet & Salty Kettle
-                                        Corn
-                                    </a>
-                                </h6>
-                                <div class="product-rate-cover">
-                                    <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 90%"></div>
-                                    </div>
-                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$32.85</span>
-                                    <span class="old-price">$33.8</span>
-                                </div>
-                            </div>
-                        </article>
-                        <article class="row align-items-center hover-up">
-                            <figure class="col-md-4 mb-0">
-                                <a href="shop-product-right.html">
-                                    <img src="assets/imgs/shop/thumbnail-12.jpg"
-                                         alt="" />
-                                </a>
-                            </figure>
-                            <div class="col-md-8 mb-0">
-                                <h6>
-                                    <a href="shop-product-right.html">
-                                        All Natural Italian-Style Chicken
-                                        Meatballs
-                                    </a>
-                                </h6>
-                                <div class="product-rate-cover">
-                                    <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 90%"></div>
-                                    </div>
-                                    <span class="font-small ml-5 text-muted"> (4.0)</span>
-                                </div>
-                                <div class="product-price">
-                                    <span>$32.85</span>
-                                    <span class="old-price">$33.8</span>
-                                </div>
-                            </div>
-                        </article>
+                        }
                     </div>
                 </div>
             </div>

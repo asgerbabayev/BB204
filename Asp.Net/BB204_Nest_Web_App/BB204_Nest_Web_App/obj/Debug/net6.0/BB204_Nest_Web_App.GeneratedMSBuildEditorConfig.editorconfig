@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\Asp.Net\BB204_Nest_Web_App\BB204_Nest_Web_App
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Categories/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXENhdGVnb3JpZXNcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXENhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXENhdGVnb3JpZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

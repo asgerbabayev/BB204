@@ -13,5 +13,6 @@
     <_SelectedScaffolderID>AreaScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_DependencyDialogWidth>650.4</WebStackScaffolding_DependencyDialogWidth>
+    <WebStackScaffolding_DbContextTypeFullName>BB204_Nest_Web_App.DAL.AppDbContext</WebStackScaffolding_DbContextTypeFullName>
   </PropertyGroup>
 </Project>

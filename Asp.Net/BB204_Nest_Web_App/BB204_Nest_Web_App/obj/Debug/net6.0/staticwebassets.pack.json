@@ -245,10 +245,6 @@
       "PackagePath": "staticwebassets\\admin\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\admin\\index.html",
-      "PackagePath": "staticwebassets\\admin\\index.html"
-    },
-    {
       "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\admin\\js\\.DS_Store",
       "PackagePath": "staticwebassets\\admin\\js\\.DS_Store"
     },
@@ -691,6 +687,22 @@
     {
       "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\assets\\imgs\\page\\page-404.png",
       "PackagePath": "staticwebassets\\assets\\imgs\\page\\page-404.png"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\assets\\imgs\\shop\\35cdf878-bb54-4355-aa14-5c00f0a05228_face8.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\35cdf878-bb54-4355-aa14-5c00f0a05228_face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\assets\\imgs\\shop\\94e12c8e-3b72-4968-a4d3-aabbac8cfdd6_face4.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\94e12c8e-3b72-4968-a4d3-aabbac8cfdd6_face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\assets\\imgs\\shop\\94e12c8e-3b72-4968-a4d3-aabbac8cfdd6_face9.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\94e12c8e-3b72-4968-a4d3-aabbac8cfdd6_face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\assets\\imgs\\shop\\ad566843-0a69-457f-a590-b0da6259d29a_face6.jpg",
+      "PackagePath": "staticwebassets\\assets\\imgs\\shop\\ad566843-0a69-457f-a590-b0da6259d29a_face6.jpg"
     },
     {
       "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\Asp.Net\\BB204_Nest_Web_App\\BB204_Nest_Web_App\\wwwroot\\assets\\imgs\\shop\\cat-1.png",

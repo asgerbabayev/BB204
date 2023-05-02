@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\NestAdmin\Models\" />
+    <Folder Include="ViewModels\NewFolder\" />
   </ItemGroup>
 
 </Project>

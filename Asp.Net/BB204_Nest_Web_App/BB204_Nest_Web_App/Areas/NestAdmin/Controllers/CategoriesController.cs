@@ -1,7 +1,7 @@
 ﻿using BB204_Nest_Web_App.DAL;
 using BB204_Nest_Web_App.Models;
+using BB204_Nest_Web_App.Utilities.Extensions;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 
 namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
@@ -10,9 +10,11 @@ namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
     public class CategoriesController : Controller
     {
         private readonly AppDbContext _context;
-        public CategoriesController(AppDbContext context)
+        private readonly IWebHostEnvironment _environment;
+        public CategoriesController(AppDbContext context, IWebHostEnvironment environment)
         {
             _context = context;
+            _environment = environment;
         }
         public async Task<IActionResult> Index()
         {
@@ -29,22 +31,18 @@ namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Category category)
         {
-            if (ModelState["File"].ValidationState == ModelValidationState.Invalid) return View();
-
-            if (!category.File.ContentType.Contains("image/"))
+            if (!ModelState.IsValid) return View();
+            if (!category.PhotoFile.CheckFileType("image"))
             {
-                ModelState.AddModelError("File", "File must be image format");
+                ModelState.AddModelError("PhotoFile", "File must be image format");
                 return View();
             }
-            if (category.File.Length / 1024 > 200)
+            if (category.PhotoFile.CheckFileSize(200))
             {
-                ModelState.AddModelError("File", "File must be less than 200kb");
+                ModelState.AddModelError("PhotoFile", "File must be less than 200kb");
                 return View();
             }
-
-
-
-            category.Photo = category.File.FileName;
+            category.Photo = await category.PhotoFile.SaveFileAsync(_environment.WebRootPath, "shop");
 
             await _context.Categories.AddAsync(category);
             await _context.SaveChangesAsync();

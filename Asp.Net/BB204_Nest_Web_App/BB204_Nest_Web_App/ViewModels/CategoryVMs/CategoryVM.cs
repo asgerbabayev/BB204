@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BB204_Nest_Web_App.Models;
+namespace BB204_Nest_Web_App.ViewModels.CategoryVMs;
 
-public class Category
+public class CategoryVM
 {
     public int Id { get; set; }
     [MaxLength(100), MinLength(2)]
@@ -11,8 +11,5 @@ public class Category
     public string Logo { get; set; } = null!;
     public string? Photo { get; set; }
     [NotMapped]
-    public IFormFile PhotoFile { get; set; } = null!;
-    public bool IsDeleted { get; set; }
-    public ICollection<Product>? Products { get; set; }
-
+    public IFormFile? PhotoFile { get; set; }
 }

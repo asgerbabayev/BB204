@@ -1,7 +1,7 @@
 ﻿using BB204_Nest_Web_App.DAL;
 using BB204_Nest_Web_App.Models;
+using BB204_Nest_Web_App.Utilities.Extensions;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
@@ -10,150 +10,227 @@ namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
     public class ProductsController : Controller
     {
         private readonly AppDbContext _context;
-
-        public ProductsController(AppDbContext context)
+        private readonly IWebHostEnvironment _env;
+        public ProductsController(AppDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
 
-        // GET: NestAdmin/Products
         public async Task<IActionResult> Index()
         {
-            var appDbContext = _context.Products.Include(p => p.Category);
-            return View(await appDbContext.ToListAsync());
+            return View(await _context.Products
+                .Include(x => x.Category)
+                .Include(x => x.ProductImages)
+                .Where(x => x.IsDeleted == false)
+                .OrderByDescending(p => p.Id)
+                .Take(10).ToListAsync());
         }
 
-        // GET: NestAdmin/Products/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.Products == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Products
-                .Include(p => p.Category)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-
-            return View(product);
-        }
-
-        // GET: NestAdmin/Products/Create
         public IActionResult Create()
         {
             ViewBag.Categories = _context.Categories.ToList();
             return View();
         }
-
-        // POST: NestAdmin/Products/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Product product)
         {
-            _context.Products.Add(product);
-            return View(product);
+            ViewBag.Categories = _context.Categories.ToList();
+            if (!ModelState.IsValid) return View();
+
+            if (_context.Products.Any(p => p.Name.Trim().ToLower().Contains(product.Name.ToLower().Trim())))
+            {
+                ModelState.AddModelError("Name", "Product name already exist");
+                return View();
+            }
+
+            if (product.Discount != null)
+            {
+                if (product.Discount > product.SellPrice)
+                {
+                    ModelState.AddModelError("Discount", "Discount price can't be less sell price");
+                    return View();
+                }
+            }
+            else
+                product.Discount = product.SellPrice;
+
+            if (!CheckFile(product.PhotoBack, 2000, out string messageBack))
+            {
+                ModelState.AddModelError("PhotoBack", messageBack);
+                return View();
+            }
+
+            _context.ProductImages.Add(new ProductImage
+            {
+                Image = await product.PhotoBack.SaveFileAsync(_env.WebRootPath, "shop"),
+                IsBack = true,
+                IsFront = false,
+                Product = product
+            });
+
+            if (!CheckFile(product.PhotoFront, 2000, out string messageFront))
+            {
+                ModelState.AddModelError("PhotoFront", messageFront);
+                return View();
+            }
+
+            _context.ProductImages.Add(new ProductImage
+            {
+                Image = await product.PhotoFront.SaveFileAsync(_env.WebRootPath, "shop"),
+                IsBack = false,
+                IsFront = true,
+                Product = product
+            });
+
+            foreach (IFormFile file in product.Files)
+            {
+                if (!CheckFile(file, 2000, out string messageFiles))
+                {
+                    ModelState.AddModelError("Files", messageFiles);
+                    return View();
+                }
+
+                _context.ProductImages.Add(new ProductImage
+                {
+                    Image = await file.SaveFileAsync(_env.WebRootPath, "shop"),
+                    IsBack = false,
+                    IsFront = false,
+                    Product = product
+                });
+            }
+            await _context.Products.AddAsync(product);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
 
-        // GET: NestAdmin/Products/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Detail(int id)
         {
-            if (id == null || _context.Products == null)
-            {
-                return NotFound();
-            }
-
-            var product = await _context.Products.FindAsync(id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", product.CategoryId);
-            return View(product);
+            return View(await _context.Products
+                .Include(c => c.Category)
+                .Include(pi => pi.ProductImages).FirstOrDefaultAsync(p => p.Id == id));
         }
 
-        // POST: NestAdmin/Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        public async Task<IActionResult> Edit(int id)
+        {
+            ViewBag.Categories = await _context.Categories.ToListAsync();
+            return View(await _context.Products.
+                Include(c => c.Category).
+                Include(pi => pi.ProductImages)
+                .FirstOrDefaultAsync(x => x.Id == id));
+        }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,SellPrice,Rating,CostPrice,Discount,StockCount,CategoryId,IsDeleted")] Product product)
+        public async Task<IActionResult> Edit(Product product)
         {
-            if (id != product.Id)
-            {
-                return NotFound();
-            }
+            ViewBag.Categories = _context.Categories.ToList();
+            if (!ModelState.IsValid) return View(product);
 
-            if (ModelState.IsValid)
+            Product? exist = await _context.Products.
+                Include(c => c.Category).
+                Include(pi => pi.ProductImages)
+                .FirstOrDefaultAsync(x => x.Id == product.Id);
+
+            if (product.Discount != null)
             {
-                try
+                if (product.Discount > product.SellPrice)
                 {
-                    _context.Update(product);
-                    await _context.SaveChangesAsync();
+                    ModelState.AddModelError("Discount", "Discount price can't be less sell price");
+                    return View();
                 }
-                catch (DbUpdateConcurrencyException)
+            }
+            else
+                product.Discount = product.SellPrice;
+
+            if (product.PhotoBack != null)
+            {
+                if (!CheckFile(product.PhotoBack, 2000, out string messageBack))
                 {
-                    if (!ProductExists(product.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    ModelState.AddModelError("PhotoBack", messageBack);
+                    return View();
                 }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", product.CategoryId);
-            return View(product);
-        }
 
-        // GET: NestAdmin/Products/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.Products == null)
+                _context.ProductImages.Add(new ProductImage
+                {
+                    Image = await product.PhotoBack.SaveFileAsync(_env.WebRootPath, "shop"),
+                    IsBack = true,
+                    IsFront = false,
+                    Product = product
+                });
+                product.PhotoBack.DeleteFile(_env.WebRootPath, "shop", exist.ProductImages.FirstOrDefault(x => x.IsBack == true).Image);
+
+            }
+            if (product.PhotoFront != null)
             {
-                return NotFound();
-            }
+                if (!CheckFile(product.PhotoFront, 2000, out string messageFront))
+                {
+                    ModelState.AddModelError("PhotoFront", messageFront);
+                    return View();
+                }
 
-            var product = await _context.Products
-                .Include(p => p.Category)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (product == null)
+                _context.ProductImages.Add(new ProductImage
+                {
+                    Image = await product.PhotoFront.SaveFileAsync(_env.WebRootPath, "shop"),
+                    IsBack = false,
+                    IsFront = true,
+                    Product = product
+                });
+                product.PhotoBack.DeleteFile(_env.WebRootPath, "shop", exist.ProductImages.FirstOrDefault(x => x.IsFront == true).Image);
+            }
+            if (product.Files != null)
             {
-                return NotFound();
-            }
+                foreach (IFormFile file in product.Files)
+                {
+                    if (!CheckFile(file, 2000, out string messageFiles))
+                    {
+                        ModelState.AddModelError("Files", messageFiles);
+                        return View();
+                    }
 
-            return View(product);
-        }
-
-        // POST: NestAdmin/Products/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            if (_context.Products == null)
-            {
-                return Problem("Entity set 'AppDbContext.Products'  is null.");
+                    _context.ProductImages.Add(new ProductImage
+                    {
+                        Image = await file.SaveFileAsync(_env.WebRootPath, "shop"),
+                        IsBack = false,
+                        IsFront = false,
+                        Product = product
+                    });
+                }
             }
-            var product = await _context.Products.FindAsync(id);
-            if (product != null)
-            {
-                _context.Products.Remove(product);
-            }
-
+            exist.Name = product.Name;
+            exist.SellPrice = product.SellPrice;
+            exist.CostPrice = product.CostPrice;
+            exist.CategoryId = product.CategoryId;
+            exist.Discount = product.Discount;
+            exist.StockCount = product.StockCount;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool ProductExists(int id)
+        [HttpPost]
+        public async Task<IActionResult> DeleteImage(int id)
         {
-            return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
+            ProductImage productImage = await _context.ProductImages.FirstOrDefaultAsync(x => x.Id == id);
+            productImage.File.DeleteFile(_env.WebRootPath, "shop", productImage.Image);
+            _context.ProductImages.Remove(productImage);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
+
+        private bool CheckFile(IFormFile file, int size, out string message)
+        {
+            message = string.Empty;
+            if (!file.CheckFileType("image"))
+            {
+                message = "File must be image type";
+                return false;
+            }
+            if (file.CheckFileSize(size))
+            {
+                message = $"Image type must be lesst than {size}";
+                return false;
+            }
+            return true;
+        }
+
     }
 }

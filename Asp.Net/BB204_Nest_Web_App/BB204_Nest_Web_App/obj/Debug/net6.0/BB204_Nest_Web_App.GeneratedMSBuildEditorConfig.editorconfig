@@ -40,12 +40,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXFByb2R1Y3RzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Products/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXFByb2R1Y3RzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Products/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXFByb2R1Y3RzXERldGFpbHMuY3NodG1s
+[C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Products/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmVzdEFkbWluXFZpZXdzXFByb2R1Y3RzXERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/asger/OneDrive/Masaüstü/Files/BDU/BB204/Asp.Net/BB204_Nest_Web_App/BB204_Nest_Web_App/Areas/NestAdmin/Views/Products/Edit.cshtml]

@@ -16,10 +16,24 @@ public static class FileExtension
         string uniqeFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
         string path = Path.Combine(root, "assets", "imgs", mainPath, uniqeFileName);
 
-        FileStream stream = new FileStream(path, FileMode.Create);
-
+        using FileStream stream = new FileStream(path, FileMode.Create);
         await file.CopyToAsync(stream);
         return uniqeFileName;
     }
 
+    public static void DeleteFile(this IFormFile file, string root, string mainPath, string fileName)
+    {
+        string path = Path.Combine(root, "assets", "imgs", mainPath, fileName);
+
+        using FileStream stream = new FileStream(path, FileMode.Open);
+
+        if (File.Exists(path))
+        {
+            stream.Close();
+            File.Delete(path);
+        }
+
+        File.Delete(path);
+
+    }
 }

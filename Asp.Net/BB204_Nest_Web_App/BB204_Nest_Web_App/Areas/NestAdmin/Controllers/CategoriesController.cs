@@ -1,6 +1,7 @@
 ﻿using BB204_Nest_Web_App.DAL;
 using BB204_Nest_Web_App.Models;
 using BB204_Nest_Web_App.Utilities.Extensions;
+using BB204_Nest_Web_App.ViewModels.CategoryVMs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -32,6 +33,7 @@ namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
         public async Task<IActionResult> Create(Category category)
         {
             if (!ModelState.IsValid) return View();
+            #region Single file
             if (!category.PhotoFile.CheckFileType("image"))
             {
                 ModelState.AddModelError("PhotoFile", "File must be image format");
@@ -43,9 +45,35 @@ namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
                 return View();
             }
             category.Photo = await category.PhotoFile.SaveFileAsync(_environment.WebRootPath, "shop");
-
             await _context.Categories.AddAsync(category);
             await _context.SaveChangesAsync();
+            #endregion
+
+            #region Multiple file
+            //Category category = new Category();
+            //foreach (IFormFile item in categoryVm.PhotoFiles)
+            //{
+            //    if (!item.CheckFileType("image"))
+            //    {
+            //        ModelState.AddModelError("PhotoFile", "File must be image format");
+            //        return View();
+            //    }
+            //    if (item.CheckFileSize(200))
+            //    {
+            //        ModelState.AddModelError("PhotoFile", "File must be less than 200kb");
+            //        return View();
+            //    }
+            //}
+            //foreach (IFormFile file in categoryVm.PhotoFiles)
+            //{
+            //    categoryVm.Photo = await file.SaveFileAsync(_environment.WebRootPath, "shop");
+            //    category.Photo = categoryVm.Photo;
+            //    await _context.Categories.AddAsync(category);
+            //}
+            //await _context.SaveChangesAsync();
+
+            #endregion
+
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Edit(int id)
@@ -53,29 +81,41 @@ namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
             return View(await _context.Categories.FirstOrDefaultAsync(x => x.Id == id));
         }
         [HttpPost]
-        public async Task<IActionResult> Edit(Category category)
+        public async Task<IActionResult> Edit(CategoryVM category)
         {
             Category? exists = await _context.Categories.FirstOrDefaultAsync(x => x.Id == category.Id);
-            if (exists == null)
+            if (exists == null) return View("error");
+            if (category.PhotoFile != null)
             {
-                ModelState.AddModelError("", "Category is null");
-                return View();
+                if (!category.PhotoFile.CheckFileType("image"))
+                {
+                    ModelState.AddModelError("PhotoFile", "File must be image format");
+                    return View();
+                }
+                if (category.PhotoFile.CheckFileSize(200))
+                {
+                    ModelState.AddModelError("PhotoFile", "File must be less than 200kb");
+                    return View();
+                }
+                string path = Path.Combine(_environment.WebRootPath, "assets", "imgs", "shop", exists.Photo);
+                if (System.IO.File.Exists(path))
+                {
+                    System.IO.File.Delete(path);
+                }
+                exists.Photo = await category.PhotoFile.SaveFileAsync(_environment.WebRootPath, "shop");
             }
             exists.Name = category.Name;
             exists.Logo = category.Logo;
-            exists.Photo = category.Photo;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Delete(int id)
         {
             Category? exists = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
-            if (exists == null)
-            {
-                ModelState.AddModelError("", "Category is null");
-                return View();
-            }
-            //_context.Categories.Remove(exists);
+            if (exists == null) return View("Error");
+
+            exists.PhotoFile.DeleteFile(_environment.WebRootPath, "shop", exists.Photo);
+
             exists.IsDeleted = true;
             await _context.SaveChangesAsync();
             return RedirectToAction("Index");

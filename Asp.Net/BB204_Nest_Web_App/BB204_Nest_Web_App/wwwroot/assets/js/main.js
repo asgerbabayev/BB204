@@ -1,3 +1,7 @@
+
+
+
+
 (function ($) {
     ("use strict");
     // Page loading
@@ -8,6 +12,24 @@
         });
         $("#onloadModal").modal("show");
     });
+
+    $(document).on("click", "#btn_load", function () {
+       let proCount = $(".products").children().length
+        $.ajax({
+            url: 'Product/LoadProduct',
+            method: 'GET',
+            data: {
+                skip: proCount
+            },
+            success: function (result) {
+                $(".products").append(result)
+            },
+            error: function (result) {
+                console.log(result)
+            }
+        })
+    })
+
     /*-----------------
         Menu Stick
     -----------------*/
@@ -23,7 +45,6 @@
             header.addClass("stick");
         }
     });
-
     /*------ ScrollUp -------- */
     $.scrollUp({
         scrollText: '<i class="fi-rs-arrow-small-up"></i>',

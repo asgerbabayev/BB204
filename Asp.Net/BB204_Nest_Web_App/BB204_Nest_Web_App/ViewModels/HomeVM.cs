@@ -9,5 +9,4 @@ public class HomeVM
     public List<Models.Category> RandomCategories { get; set; }
     public List<Product> TopRatedProducts { get; set; }
     public List<Product> RecentProducts { get; set; }
-    public List<Product> Products { get; set; }
 }

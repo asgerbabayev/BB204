@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
 }
 @model HomeVM
@@ -10,7 +9,7 @@
         <div class="container">
             <div class="home-slide-cover mt-30">
                 <div class="hero-slider-1 style-4 dot-style-1 dot-style-1-position-1">
-                   @foreach (var item in Model.Sliders)
+                    @foreach (var item in Model.Sliders)
                     {
                         <div class="single-hero-slider single-animation-wrap"
                              style="background-image: url(../assets/imgs/slider/@item.Image)">
@@ -33,19 +32,20 @@
     </section>
     <!--End hero slider-->
     <section class="popular-categories section-padding">
+        <button class="btn btn-primary" id="btn_load">Load More..</button>
         <div class="container wow animate__animated animate__fadeIn">
             <div class="section-title">
                 <div class="title">
                     <h3>Featured Categories</h3>
                     <ul class="list-inline nav nav-tabs links">
-                    @foreach (var item in Model.RandomCategories)
-                    {
-                        <li class="list-inline-item nav-item">
-                            <a class="nav-link" href="shop-grid-right.html">
-                                @item.Name
-                            </a>
-                        </li>
-                    }
+                        @foreach (var item in Model.RandomCategories)
+                        {
+                            <li class="list-inline-item nav-item">
+                                <a class="nav-link" href="shop-grid-right.html">
+                                    @item.Name
+                                </a>
+                            </li>
+                        }
                     </ul>
                 </div>
                 <div class="slider-arrow slider-arrow-2 flex-right carausel-10-columns-arrow"
@@ -60,7 +60,7 @@
                         <h6><a href="shop-grid-right.html"></a></h6>
                         <span>26 items</span>
                     </div>
-                        
+
                 </div>
             </div>
         </div>
@@ -126,82 +126,22 @@
                     </li>
                     @foreach (var item in Model.PopularCategories)
                     {
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="nav-tab-two" data-bs-toggle="tab" data-bs-target="#tab-two"
-                                type="button" role="tab" aria-controls="tab-two" aria-selected="false">
-                            @item.Name
-                        </button>
-                    </li>
-                        
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="nav-tab-two" data-bs-toggle="tab" data-bs-target="#tab-two"
+                                    type="button" role="tab" aria-controls="tab-two" aria-selected="false">
+                                @item.Name
+                            </button>
+                        </li>
+
                     }
-                    
                 </ul>
             </div>
             <!--End nav-tabs-->
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
                     <div class="row product-grid-4">
-                    @foreach(var product in Model.Products)
-                    {
-                            <div class="col-lg-1-5 col-md-4 col-12 col-sm-6">
-                            <div class="product-cart-wrap mb-30 wow animate__animated animate__fadeIn"
-                                 data-wow-delay=".1s">
-                                <div class="product-img-action-wrap">
-                                    <div class="product-img product-img-zoom">
-                                        <a href="shop-product-right.html">
-                                            <img class="default-img" src="~/assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
-                                                 alt="" />
-                                            <img class="hover-img" src="~/assets/imgs/shop/@product.ProductImages.Where(x=>x.IsBack == true).FirstOrDefault().Image" alt="" />
-                                        </a>
-                                    </div>
-                                    <div class="product-action-1">
-                                        <a aria-label="Add To Wishlist" class="action-btn"
-                                           href="shop-wishlist.html"><i class="fi-rs-heart"></i></a>
-                                        <a aria-label="Compare" class="action-btn" href="shop-compare.html">
-                                            <i class="fi-rs-shuffle"></i>
-                                        </a>
-                                        <a aria-label="Quick view" class="action-btn" data-bs-toggle="modal"
-                                           data-bs-target="#quickViewModal"><i class="fi-rs-eye"></i></a>
-                                    </div>
-                                    <div class="product-badges product-badges-position product-badges-mrg">
-                                        <span class="hot">Hot</span>
-                                    </div>
-                                </div>
-                                <div class="product-content-wrap">
-                                    <div class="product-category">
-                                        <a href="shop-grid-right.html">@product.Category.Name</a>
-                                    </div>
-                                    <h2>
-                                        <a href="shop-product-right.html">
-                                            @product.Name
-                                        </a>
-                                    </h2>
-                                    <div class="product-rate-cover">
-                                        <div class="product-rate d-inline-block">
-                                            <div class="product-rating" style="width: @(product.Rating*20)%"></div>
-                                        </div>
-                                        <span class="font-small ml-5 text-muted"> (@product.Rating)</span>
-                                    </div>
-                                    <div>
-                                        <span class="font-small text-muted">
-                                            By <a href="vendor-details-1.html">NestFood</a>
-                                        </span>
-                                    </div>
-                                    <div class="product-card-bottom">
-                                        <div class="product-price">
-                                            <span>$@product.SellPrice</span>
-                                            <span class="old-price">$32.8</span>
-                                        </div>
-                                        <div class="add-cart">
-                                            <a class="add" href="shop-cart.html">
-                                                <i class="fi-rs-shopping-cart mr-5"></i>Add
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    }
+                        @*@await Html.PartialAsync("_ProductPartial", Model.Products);*@
+                        @await Component.InvokeAsync("Product",new {take = 5})
                         <!--end product card-->
                     </div>
                     <!--End product-grid-4-->
@@ -4927,34 +4867,35 @@
                      data-wow-delay=".2s">
                     <h4 class="section-title style-1 mb-30 animated animated">Recently added</h4>
                     <div class="product-list-small animated animated">
-                        @foreach(Product product in Model.RecentProducts){
+                        @foreach (Product product in Model.RecentProducts)
+                        {
 
-                        <article class="row align-items-center hover-up">
-                            <figure class="col-md-4 mb-0">
-                                <a href="shop-product-right.html">
-                                    <img src="assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
-                                         alt="" />
-                                </a>
-                            </figure>
-                            <div class="col-md-8 mb-0">
-                                <h6>
+                            <article class="row align-items-center hover-up">
+                                <figure class="col-md-4 mb-0">
                                     <a href="shop-product-right.html">
-                                        Pepperidge Farm Farmhouse Hearty White
-                                        Bread
+                                        <img src="assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
+                                             alt="" />
                                     </a>
-                                </h6>
-                                <div class="product-rate-cover">
-                                    <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: @(product.Rating * 20)%"></div>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">
+                                            Pepperidge Farm Farmhouse Hearty White
+                                            Bread
+                                        </a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: @(product.Rating * 20)%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (@(product.Rating))</span>
                                     </div>
-                                    <span class="font-small ml-5 text-muted"> (@(product.Rating))</span>
+                                    <div class="product-price">
+                                        <span>$32.85</span>
+                                        <span class="old-price">$33.8</span>
+                                    </div>
                                 </div>
-                                <div class="product-price">
-                                    <span>$32.85</span>
-                                    <span class="old-price">$33.8</span>
-                                </div>
-                            </div>
-                        </article>
+                            </article>
                         }
                     </div>
                 </div>
@@ -4962,34 +4903,34 @@
                      data-wow-delay=".3s">
                     <h4 class="section-title style-1 mb-30 animated animated">Top Rated</h4>
                     <div class="product-list-small animated animated">
-                        @foreach(Product product in Model.TopRatedProducts)
+                        @foreach (Product product in Model.TopRatedProducts)
                         {
                             <article class="row align-items-center hover-up">
-                            <figure class="col-md-4 mb-0">
-                                <a href="shop-product-right.html">
-                                        <img src="assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
-                                         alt="" />
-                                </a>
-                            </figure>
-                            <div class="col-md-8 mb-0">
-                                <h6>
+                                <figure class="col-md-4 mb-0">
                                     <a href="shop-product-right.html">
-                                        Foster Farms Takeout Crispy Classic Buffalo
-                                        Wings
+                                        <img src="assets/imgs/shop/@product.ProductImages.Where(x=>x.IsFront == true).FirstOrDefault().Image"
+                                             alt="" />
                                     </a>
-                                </h6>
-                                <div class="product-rate-cover">
-                                    <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: @(product.Rating * 20)%"></div>
+                                </figure>
+                                <div class="col-md-8 mb-0">
+                                    <h6>
+                                        <a href="shop-product-right.html">
+                                            Foster Farms Takeout Crispy Classic Buffalo
+                                            Wings
+                                        </a>
+                                    </h6>
+                                    <div class="product-rate-cover">
+                                        <div class="product-rate d-inline-block">
+                                            <div class="product-rating" style="width: @(product.Rating * 20)%"></div>
+                                        </div>
+                                        <span class="font-small ml-5 text-muted"> (@product.Rating)</span>
                                     </div>
-                                    <span class="font-small ml-5 text-muted"> (@product.Rating)</span>
+                                    <div class="product-price">
+                                        <span>$32.85</span>
+                                        <span class="old-price">$33.8</span>
+                                    </div>
                                 </div>
-                                <div class="product-price">
-                                    <span>$32.85</span>
-                                    <span class="old-price">$33.8</span>
-                                </div>
-                            </div>
-                        </article>
+                            </article>
                         }
                     </div>
                 </div>

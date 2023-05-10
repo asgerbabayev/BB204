@@ -1,6 +1,7 @@
 ﻿using BB204_Nest_Web_App.DAL;
 using BB204_Nest_Web_App.Models;
 using BB204_Nest_Web_App.Utilities.Extensions;
+using BB204_Nest_Web_App.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,15 +17,28 @@ namespace BB204_Nest_Web_App.Areas.NestAdmin.Controllers
             _context = context;
             _env = env;
         }
-
-        public async Task<IActionResult> Index()
+        public IActionResult Index(int page = 1, int take = 5)
         {
-            return View(await _context.Products
+            var products = _context.Products
+                .Where(x => x.IsDeleted == false)
+                .Skip((page - 1) * take)
+                .Take(take)
                 .Include(x => x.Category)
                 .Include(x => x.ProductImages)
-                .Where(x => x.IsDeleted == false)
-                .OrderByDescending(p => p.Id)
-                .Take(10).ToListAsync());
+                .ToList();
+            PaginateVM<Product> paginateVM = new PaginateVM<Product>()
+            {
+                Items = products,
+                CurrentPage = page,
+                PageCount = GetPageCount(take)
+            };
+            return View(paginateVM);
+        }
+
+        private int GetPageCount(int take)
+        {
+            var productCount = _context.Products.Where(x => x.IsDeleted == false).Count();
+            return (int)Math.Ceiling(((decimal)productCount / take));
         }
 
         public IActionResult Create()

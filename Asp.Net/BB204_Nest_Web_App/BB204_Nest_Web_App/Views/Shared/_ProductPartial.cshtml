@@ -40,9 +40,9 @@
                         <span>$@item.SellPrice</span>
                     <span class="old-price">$</span>
                 </div>
-                <div class="add-cart">
-                    <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add </a>
-                </div>
+                    <form asp-controller="Home" asp-action="AddBasket" asp-route-id="@item.Id">
+                        <button type="submit"><i class="fi-rs-shopping-cart mr-5"></i>Add</button>
+                    </form>
             </div>
         </div>
     </div>

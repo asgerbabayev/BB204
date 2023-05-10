@@ -45,6 +45,7 @@ namespace BB204_Nest_Web_App.Controllers
             Product? product = await _context.Products.FindAsync(id);
             if (product == null) return BadRequest();
             List<BasketVM> basket = GetBasket();
+
             UpdateBasket(product.Id, basket);
             return RedirectToAction("Index", "Home");
         }
@@ -56,13 +57,9 @@ namespace BB204_Nest_Web_App.Controllers
             {
                 basket = JsonConvert.DeserializeObject<List<BasketVM>>(Request.Cookies["basket"]);
             }
-            else
-            {
-                basket = new List<BasketVM>();
-            }
+            else basket = new List<BasketVM>();
             return basket;
         }
-
         private void UpdateBasket(int id, List<BasketVM> basket)
         {
             BasketVM basketVM = basket.Find(x => x.Id == id);
@@ -82,7 +79,18 @@ namespace BB204_Nest_Web_App.Controllers
             Response.Cookies.Append("basket", JsonConvert.SerializeObject(basket));
         }
 
-        public IActionResult Basket() =>
-            Json(JsonConvert.DeserializeObject<List<BasketVM>>(Request.Cookies["basket"]));
+        public IActionResult DeleteBasketItem(int id)
+        {
+            List<BasketVM> basket = GetBasket();
+            BasketVM basketVM = basket.Find(x => x.Id == id);
+            basket.Remove(basketVM);
+            Response.Cookies.Append("basket", JsonConvert.SerializeObject(basket));
+            return RedirectToAction(nameof(Cart));
+        }
+
+        public IActionResult Cart()
+        {
+            return View();
+        }
     }
 }

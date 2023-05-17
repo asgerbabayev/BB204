@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\BB204_Nest_Web_App.props" />
-</Project>

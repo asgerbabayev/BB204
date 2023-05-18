@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row" id="joinArea">
+        <div class="col-6">
+            <form id="enterGroupForm">
+                <div class="form-group mt-3">
+                    <input required type="text" id="username" class="form-control" />
+                </div>
+                <div class="form-group mt-3">
+                    <select type="text" required id="group" class="form-control form-select">
+                        <option value="group1">Group 1</option>
+                        <option value="group2">Group 2</option>
+                        <option value="group3">Group 3</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Join Group</button>
+            </form>
+        </div>
+    </div>
+    <div class="row mt-4 d-none" id="messageArea">
+        <div class="col-12">
+            <button class="btn btn-danger " id="leaveGroupBtn">Leave Group</button>
+        </div>
+        <div class="col-4">
+            <form id="sendMessageForm">
+                <div class="form-group mt-3">
+                    <textarea type="text" required id="message" placeholder="Message..." class="form-control"
+                              rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success mt-3">Send Message</button>
+            </form>
+        </div>
+        <div class="col-8">
+            <ul class="list-group" id="messages">
+                             
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/js/chat.js"></script>
+}
+
+@*
+    https://learn.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-7.0&tabs=visual-studio
+*@

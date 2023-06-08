@@ -41,9 +41,17 @@ connection.start().then(function () {
     return console.error(err.toString());
 });
 
+
+$(".discussion").click(function () {
+    $(".discussion").removeClass("message-active")
+    $(this).addClass("message-active")
+    $("#sendButton").attr("username",$(this).find(".status").attr("id"))
+});
+
 document.getElementById("sendButton").addEventListener("click", function (event) {
+    var username = $(this).attr("username");
     var message = document.getElementById("messageInput").value;
-    connection.invoke("SendMessage", message).catch(function (err) {
+    connection.invoke("SendMessage",username, message).catch(function (err) {
         return console.error(err.toString());
     });
     event.preventDefault();

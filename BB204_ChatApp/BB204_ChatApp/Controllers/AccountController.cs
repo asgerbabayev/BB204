@@ -67,4 +67,11 @@ public class AccountController : Controller
         }
         return RedirectToAction("Index", "Home");
     }
+
+
+    public async Task<IActionResult> SignOut()
+    {
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("Login");
+    }
 }

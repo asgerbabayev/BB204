@@ -15,11 +15,12 @@ public class ChatHub : Hub
         _appDbContext = appDbContext;
     }
 
-    public async Task SendMessage(string message)
+    public async Task SendMessage(string username, string message)
     {
         string date = DateTime.UtcNow.ToString("hh:mm tt");
         var senderId = Context.User.Identity.Name;
-        await Clients.All.SendAsync("ReceiveMessage", message, senderId, date);
+        AppUser user = _userManager.FindByNameAsync(username).GetAwaiter().GetResult();
+        await Clients.Clients(user.ConnectionId, Context.ConnectionId).SendAsync("ReceiveMessage", message, senderId, date);
     }
 
 

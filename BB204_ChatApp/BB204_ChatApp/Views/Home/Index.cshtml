@@ -52,7 +52,7 @@
                 {
                     <div class="discussion message-active">
                         <div class="photo" style="background-image: url(https://i.pinimg.com/originals/a9/26/52/a926525d966c9479c18d3b4f8e64b434.jpg);">
-                            <div id="@item.UserName" class="@(item.ConnectionId != null?"online":"offline")"></div>
+                            <div id="@item.UserName" class="status @(item.ConnectionId != null?"online":"offline")"></div>
                         </div>
                         <div class="desc-contact">
                             <p class="name">@item.FullName</p>
@@ -75,7 +75,7 @@
                 <div class="footer-chat">
                     <i class="icon fa fa-smile-o clickable" style="font-size:25pt;" aria-hidden="true"></i>
                     <input type="text" id="messageInput" class="write-message" placeholder="Type your message here"></input>
-                    <i class="icon send fa fa-paper-plane-o clickable" id="sendButton" aria-hidden="true"></i>
+                    <i username="" class="icon send fa fa-paper-plane-o clickable" id="sendButton" aria-hidden="true"></i>
                 </div>
             </section>
         </div>

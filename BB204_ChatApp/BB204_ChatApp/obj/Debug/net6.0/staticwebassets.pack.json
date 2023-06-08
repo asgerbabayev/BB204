@@ -1,0 +1,197 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BB204_ChatApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BB204_ChatApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\css\\style.css",
+      "PackagePath": "staticwebassets\\auth\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\auth\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\material-icon\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\auth\\fonts\\material-icon\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\material-icon\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\auth\\fonts\\material-icon\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\auth\\fonts\\material-icon\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.eot",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.svg",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.ttf",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.woff",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.woff2",
+      "PackagePath": "staticwebassets\\auth\\fonts\\montserrat\\montserrat-v12-latin-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\images\\checked.gif",
+      "PackagePath": "staticwebassets\\auth\\images\\checked.gif"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\images\\signup-bg.jpg",
+      "PackagePath": "staticwebassets\\auth\\images\\signup-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\images\\unchecked.gif",
+      "PackagePath": "staticwebassets\\auth\\images\\unchecked.gif"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\js\\main.js",
+      "PackagePath": "staticwebassets\\auth\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\common\\extend.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\common\\extend.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\common\\fonts.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\common\\fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\common\\global.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\common\\global.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\common\\minxi.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\common\\minxi.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\common\\variables.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\common\\variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\layouts\\main.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\layouts\\main.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\layouts\\responsive.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\layouts\\responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\auth\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\vendor\\jquery\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\auth\\vendor\\jquery\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\auth\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\auth\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BB204_ChatApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BB204_ChatApp.props",
+      "PackagePath": "build\\BB204_ChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BB204_ChatApp.props",
+      "PackagePath": "buildMultiTargeting\\BB204_ChatApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BB204_ChatApp.props",
+      "PackagePath": "buildTransitive\\BB204_ChatApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -9,5 +9,7 @@ public class AppUser : IdentityUser
     public string Surname { get; set; } = null!;
     [NotMapped]
     public string FullName => $"{Name} {Surname}";
-    public string? ConnectionId { get; set; }
+    public bool Status { get; set; }
+
+    public string? Image { get; set; }
 }

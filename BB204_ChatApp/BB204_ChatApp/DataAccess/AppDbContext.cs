@@ -10,5 +10,9 @@ public class AppDbContext : IdentityDbContext<AppUser>
     {
 
     }
-
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        builder.Entity<AppUser>().Property(x => x.Status).HasDefaultValue(false);
+        base.OnModelCreating(builder);
+    }
 }

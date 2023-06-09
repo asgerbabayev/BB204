@@ -161,6 +161,10 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
+      "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\imgs\\face.jpeg",
+      "PackagePath": "staticwebassets\\imgs\\face.jpeg"
+    },
+    {
       "Id": "C:\\Users\\asger\\OneDrive\\Masaüstü\\Files\\BDU\\BB204\\BB204_ChatApp\\BB204_ChatApp\\wwwroot\\js\\chat.js",
       "PackagePath": "staticwebassets\\js\\chat.js"
     },

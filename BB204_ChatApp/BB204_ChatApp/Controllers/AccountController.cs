@@ -9,11 +9,13 @@ public class AccountController : Controller
 {
     private readonly UserManager<AppUser> _userManager;
     private readonly SignInManager<AppUser> _signInManager;
+    private readonly IWebHostEnvironment _env;
 
-    public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+    public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IWebHostEnvironment env)
     {
         _userManager = userManager;
         _signInManager = signInManager;
+        _env = env;
     }
 
     public IActionResult Register()
@@ -33,6 +35,19 @@ public class AccountController : Controller
             Email = registerVM.Email,
             UserName = registerVM.UserName,
         };
+
+        if (registerVM.Image != null)
+        {
+            string fileName = Guid.NewGuid() + "_" + registerVM.Image.FileName;
+            string path = Path.Combine(_env.WebRootPath, "imgs", fileName);
+            using (FileStream stream = new FileStream(path, FileMode.Create))
+            {
+                await registerVM.Image.CopyToAsync(stream);
+            }
+            newUser.Image = fileName;
+        }
+        else newUser.Image = "face.jpeg";
+
         var result = await _userManager.CreateAsync(newUser, registerVM.Password);
         if (!result.Succeeded)
         {

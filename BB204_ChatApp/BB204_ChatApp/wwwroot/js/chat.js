@@ -4,7 +4,7 @@ var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 
 document.getElementById("sendButton").disabled = true;
 
-connection.on("ReceiveMessage", function (message,senderId,date) {
+connection.on("ReceiveMessage", function (message,senderId,date,image) {
     var me = `<div class="message text-only" style="display:flex; flex-direction: column; position:relative;">
                         <div class="response">
                             <p class="text"> ${message}</p>
@@ -12,7 +12,7 @@ connection.on("ReceiveMessage", function (message,senderId,date) {
                     <p class="response-time time" style="position:absolute; top:60px;right:-1px; "> ${date}</p>
                     </div>`;
     var other = `<div class="message">
-                        <div class="photo" style="background-image: url(https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+                        <div class="photo" style="background-image: url(../imgs/${image});">
                             <div class="online"></div>
                         </div>
                         <p class="text"> ${message} </p>
@@ -42,7 +42,7 @@ connection.start().then(function () {
 });
 
 
-$(".discussion").click(function () {
+$(".discussion").not(".search").click(function () {
     $(".discussion").removeClass("message-active")
     $(this).addClass("message-active")
     $("#sendButton").attr("username",$(this).find(".status").attr("id"))

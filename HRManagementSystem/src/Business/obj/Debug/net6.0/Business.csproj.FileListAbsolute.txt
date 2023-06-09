@@ -1,0 +1,17 @@
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\bin\Debug\net6.0\Business.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\bin\Debug\net6.0\Data.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\bin\Debug\net6.0\DataAccess.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\bin\Debug\net6.0\DataAccess.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\bin\Debug\net6.0\Data.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\asger\OneDrive\Masaüstü\Files\BDU\BB204\HRManagementSystem\src\Business\obj\Debug\net6.0\ref\Business.dll
